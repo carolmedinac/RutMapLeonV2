@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home">
+        <menu>
+            <item
+                android:id="@+id/ver_home"
+                android:title="Home"
+                android:icon="@drawable/home"/>
+        </menu>
+    </item>
+
+    <item android:title="Rutas"
+        android:id="@+id/rutas">
+        <menu>
+            <item
+                android:title="Rutas"
+                android:id="@+id/info_rutas"
+                android:icon="@drawable/transporte"/>
+        </menu>
+    </item>
+
+    <item android:title="Cuentas">
+        <menu>
+            <item android:id="@+id/ver_cuenta"
+                android:title="Ver Cuenta"
+                android:icon="@drawable/cuenta"/>
+        </menu>
+
+    </item>
+
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/quien_somos"
+                android:title="¿Quiénes somos?"
+                android:icon="@drawable/quienes_somos"
+                />
+
+            <item
+                android:id="@+id/ayuda"
+                android:title="Ayuda"
+                android:icon="@drawable/informacion"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/login"
+        android:title="Iniciar Sesion / Registrarse"
+        android:icon="@drawable/iniciarsesion"
+        />
+    <item
+        android:id="@+id/salir"
+        android:title="Cerrar Sesión "
+        android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+</menu>

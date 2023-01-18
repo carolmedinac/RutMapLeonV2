@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RutMapLeon</string>
+    <string name="spn_title">Choose a language</string>
+
+    <string-array name="dlangs">
+        <item>Usuario</item>
+        <item>Conductor De Transporte</item>
+    </string-array>
+
+    <string-array name="destino">
+        <item>RPTO. SAN JERÓNIMO-CAMPUS MÉDICO</item>
+        <item>ALTOS DE VERACRUZ-RPTO. LOS POETAS</item>
+        <item>RPTO. VILLADEMOCRACIA-RPTO. PRADERAS</item>
+        <item>RPTO. WILLIAMFONSECA-VILLASOBERANA</item>
+    </string-array>
+
+    <string-array name="Origen">
+        <item>RPTO. SAN JERÓNIMO</item>
+        <item>ALTOS DE VERACRUZ</item>
+        <item>RPTO. VILLADEMOCRACIA</item>
+        <item>RPTO. WILLIAMFONSECA</item>
+    </string-array>
+
+    <string-array name="lugarfinal">
+        <item>CAMPUS MÉDICO</item>
+        <item>RPTO. LOS POETAS</item>
+        <item>RPTO. PRADERASNUEVOLEON</item>
+        <item>VILLASOBERANA</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

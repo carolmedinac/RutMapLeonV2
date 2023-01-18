@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F3F4"
+    tools:context="apps.ejemplo.rutmapleon.Ver_cuenta_frame">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/bg_purple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="670dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="151dp"
+                android:layout_height="113dp"
+                android:layout_marginBottom="30dp"
+                app:srcCompat="@drawable/usernorma">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="Mario Robles Perez Mercado"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:layout_marginRight="2dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_light"
+                android:text="Número de Teléfono"
+
+                android:textColor="#424949"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/corner"
+                android:padding="10dp"
+                android:text="89013466"
+                android:textColor="@color/black"
+
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_light"
+                android:text="Email"
+
+                android:textColor="#424949"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/corner"
+                android:fontFamily="@font/merriweather_light"
+                android:padding="10dp"
+
+                android:text="mario213@gmail.com"
+                android:textColor="@color/black"
+
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints"
+                android:layout_marginRight="2dp">
+
+                <Button
+                    android:id="@+id/editar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn"
+
+                    android:backgroundTint="#04009A"
+                    android:fontFamily="@font/merriweather_bold"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Editar"
+                    android:textAllCaps="false"
+                    android:textSize="18dp"
+                    app:backgroundTint="#04009A" />
+
+                <Button
+                    android:id="@+id/eliminar"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn"
+                    android:backgroundTint="#04009A"
+
+                    android:fontFamily="@font/merriweather_bold"
+                    android:gravity="center_vertical|center_horizontal"
+
+                    android:text="Eliminar"
+                    android:textAllCaps="false"
+                    android:textSize="18dp"
+                    app:backgroundTint="#04009A" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

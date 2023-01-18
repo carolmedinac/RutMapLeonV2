@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.ejemplo.rutmapleon.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#e3fdfd"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="54dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/letra" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="147dp"
+            android:layout_marginBottom="70dp"
+            android:src="@drawable/logo1" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_correorecuplo"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/black"/>
+
+        <Button
+            android:id="@+id/enviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_fondo_color"
+            android:text="Enviar"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:elevation="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
